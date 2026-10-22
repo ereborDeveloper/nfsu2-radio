@@ -1,0 +1,20 @@
+{
+  "name": "nfsu2-radio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "author": "ereborDeveloper",
+  "description": "A radio module for nfsu2-web: stations from folders, mixes with track lists, link stations",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "scan": "node tools/scan.mjs",
+    "test": "node --test test/*.test.mjs",
+    "check": "tsc -p .",
+    "serve": "node tools/test-server.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "typescript": "^7.0.2"
+  }
+}
